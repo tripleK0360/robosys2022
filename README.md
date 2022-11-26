@@ -4,13 +4,13 @@
 * product
   * 標準入力で読み込んだものを乗算して出力します。 
 
-## test
+## テストコマンド
 ![test](https://github.com/tripleK0360/robosys2022/actions/workflows/test.yml/badge.svg)
 
 ## インストール方法
-1,ターミナルを開く
-2,インストールしたいディレクトリに移動する
-3, 「git clone https://github.com/tripleK0360/robosys2022.git」を実行する
+* 1 ターミナルを開く
+* 2 インストールしたいディレクトリに移動する
+* 3 「git clone https://github.com/tripleK0360/robosys2022.git」を実行する
 
 ## 使用例
 * plus
