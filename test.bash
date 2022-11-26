@@ -24,5 +24,19 @@ out=$(echo | ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
+out=$(seq 5 | ./product)
+[ "${out}" = 120 ] || ng ${LINENO}
+
+out=$(echo 0.2 | ./product)
+[ "${out}" = 0.2 ] || ng ${LINENO}
+
+out=$(echo あ | ./product)
+[ "$?" = 1 ]      || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
+out=$(echo | ./product)
+[ "$?" = 1 ]      || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
 [ "$res" = 0 ] && echo OK
 exit $res
