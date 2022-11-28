@@ -8,7 +8,7 @@
   * 標準入力で読み込んだものを乗算して出力します。 
 
 
-## テストコマンド
+## テスト状況
 ![test](https://github.com/tripleK0360/robosys2022/actions/workflows/test.yml/badge.svg)
 
 
@@ -20,8 +20,9 @@
 * 3 下記を実行する
     ```
     $ git clone https://github.com/tripleK0360/robosys2022.git
-    ```
 
+    $ cd robosys2022
+    ```
 
 ## 使用例
 * plus
