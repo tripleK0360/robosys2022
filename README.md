@@ -17,7 +17,7 @@
 
 * 2 インストールしたいディレクトリに移動する
 
-* 3 下記を実行する
+* 3 下記２つを実行する
     ```
     $ git clone https://github.com/tripleK0360/robosys2022.git
 
