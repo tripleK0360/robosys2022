@@ -8,7 +8,7 @@
   * 標準入力で読み込んだものを乗算して出力します。 
 
 
-## テスト状況
+## プログラムのテスト状況
 ![test](https://github.com/tripleK0360/robosys2022/actions/workflows/test.yml/badge.svg)
 
 
