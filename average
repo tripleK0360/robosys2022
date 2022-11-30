@@ -1,0 +1,19 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2022 Koki Ikeda 　　　　　
+# SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+
+def tonum(s):
+    try:
+        return int(s)
+    except:
+        return float(s)
+
+total = 0
+count = 0
+for line in sys.stdin:
+          total += tonum(line)
+          count = count + 1
+ans = total / count
+print(ans)
