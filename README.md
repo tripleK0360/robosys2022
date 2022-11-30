@@ -7,6 +7,9 @@
 * product
   * 標準入力で読み込んだものを乗算して出力します。 
 
+* average
+  * 標準入力で読み込んだものの平均値を出力します。
+
 
 ## プログラムのテスト状況
 ![test](https://github.com/tripleK0360/robosys2022/actions/workflows/test.yml/badge.svg)
@@ -39,6 +42,12 @@
   $ 6                  #結果
   ```
 
+* average
+  ```
+  $ seq 10 | ./average #実行
+
+  $ 5.5                #結果
+  ```
 
 ## 必要なソフトウェア
 * Python 3.7~3.10 (テスト済み)
