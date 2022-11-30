@@ -38,5 +38,19 @@ out=$(echo | ./product)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
+out=$(seq 5 | ./average)
+[ "${out}" = 3.0 ] || ng ${LINENO}
+
+out=$(echo 0.2 | ./average)
+[ "${out}" = 0.2 ] || ng ${LINENO}
+
+out=$(echo あ | ./average)
+[ "$?" = 1 ]      || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
+out=$(echo | ./average)
+[ "$?" = 1 ]      || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
 [ "$res" = 0 ] && echo OK
 exit $res
